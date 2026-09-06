@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian workspace
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# temp / logs
+*.log
+*.tmp
