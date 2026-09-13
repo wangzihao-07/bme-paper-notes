@@ -14,18 +14,23 @@ bme-paper-notes/
     └── <论文slug>/
         ├── <论文slug>.md     ← 精读笔记
         └── images/           ← 插图
+            └── paper-figures/  ← （可选）论文原图等非原创图片，附 NOTICE 说明出处
 ```
+
+> 说明：**自绘示意图**直接放在 `images/`；**论文原图等非原创图片**统一放在 `images/paper-figures/`，并在该目录的 `NOTICE.md` 中列明出处与版权归属，以区分原创与非原创内容。
 
 ## 已收录
 
 | 论文 | 方向 | 笔记 |
 | --- | --- | --- |
 | Photoacoustic Triaxial Force Sensing via Integrated Polymer Waveguides for Ultra-Compact Robotic Surgical Instruments（IEEE/ASME TMech 2025, DOI 10.1109/TMECH.2025.3628300） | 光声三轴力传感 / 微创手术器械 | [查看](papers/photoacoustic-triaxial-force-sensing/photoacoustic-triaxial-force-sensing.md) |
+| Iontronic tip-sensing guidewires（Nature Biomedical Engineering 2025, DOI 10.1038/s41551-025-01548-9） | 离子电子压力传感 / FFR 导丝 | [查看](papers/iontronic-tip-sensing-guidewires/iontronic-tip-sensing-guidewires.md) |
 
 ## 声明
 
 - 笔记中的**论文事实**（作者、DOI、数据、结论）均摘自论文原文。
 - **个人分析 / 补充**部分（风险、局限性、推导动机等）版权归整理者，转载请注明来源。
 - 论文版权归原作者及其出版机构所有，本仓库仅作学习交流。
+- 各篇笔记 `images/paper-figures/` 目录下的**论文原图**版权归原作者及出版机构所有，仅作学习评述之用，详见各目录内的 `NOTICE.md`；如需他用请自行取得授权。
 
 > 说明：本仓库由 **Claude Code**协助整理。
